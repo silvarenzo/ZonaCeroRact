@@ -57,3 +57,27 @@ button:hover::after,
 button:hover::before{
   width: 100%;
 }
+
+.ListGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.CardItem {
+  height: 100%;
+  width: 100%;
+  border: 2px solid red;
+  object-position: right;
+  object-fit: cover;
+}
+
+h3{
+  float: left;
+  padding: 5px 20px 0;
+  height: 80px;
+}
+h3:hover{
+  transform: scale(1.1);
+}
